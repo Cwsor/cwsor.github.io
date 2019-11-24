@@ -1,7 +1,25 @@
 
 
-<script>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <script>
   function logger(logtext){
-  	console.log(logtext);
+  	var item = document.getElementById("tester1");
+  	item.innerHTML = logtext;
   }
 </script>
+</head>
+<body>
+
+<button onclick="logger('dog')"></button>
+	<div id="tester1">Test</div>
+	
+
+</body>
+</html>
+
